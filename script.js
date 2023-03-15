@@ -8,7 +8,7 @@ function ResolvePromise(){
 	})
 }
 
-ResolvePromise.then((result)=>{
+ResolvePromise().then((result)=>{
 	  const outputElement = document.getElementById("output");
 	  outputElement.textContent = result;
 })
